@@ -1,0 +1,3 @@
+Once your computer recognizes the ST-Link as a usb device, now you need to give WSL access to use the device.
+
+To do this, follow the instructions on this page: https://learn.microsoft.com/en-us/windows/wsl/connect-usb
