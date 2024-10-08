@@ -5,3 +5,9 @@ To do this, follow the instructions on this page: https://learn.microsoft.com/en
 It is worth noting, if you close WSL you will need to re-attach the shared ST-Link to the new WSL window.
 Each time you open WSL, run Powershell as an admin and type "usbipd attach --wsl --busid <busid>", where <busid> is the ID of the ST-Link.
 You find the bus ID by running "usbipd list" in Powershell.
+
+```bash
+usbipd list
+usbipd bind --busid <bus-id>
+usbipd attach --wsl --busid <bus-id>
+```
