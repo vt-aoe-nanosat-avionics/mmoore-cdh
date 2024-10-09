@@ -1,8 +1,8 @@
-PROJECT = flight-401-blr
+PROJECT = lp-flight-401-blr
 BUILD_DIR = build
 
 TA_EXPT_DIR = ./ta-expt
-CFILES = flight_401_blr.c
+CFILES = lp-flight_401_blr.c
 CFILES += bootloader.c taolst_protocol.c
 
 # Edit these two lines as needed
