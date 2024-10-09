@@ -6,9 +6,9 @@ version
 ```bash
 cd ../../scripts/
 source sourcefile.txt
-cd ../software/flight-401-blr/
+cd ../software/lp-flight-401-blr/
 make
-st-flash write flight-401-blr.bin 0x8000000
+st-flash write lp-flight-401-blr.bin 0x8000000
 ```
 
 ## License
