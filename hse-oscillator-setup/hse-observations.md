@@ -31,6 +31,12 @@ To calculate $$g_{mcrit}$$, we utilize the following formula provided in the STM
 
 $$g_{mcrit} = 4 * ESR * (2 * \pi * F)^2 * (C_0 + C_L)^2$$
 
+where,
+- ESR is the Equivalent Series Resistance of the oscillator, provided in the datasheet
+- F is the Frequency of the oscillator
+- $$C_0$$ is the Shunt Capacitance of the oscillator
+- $$C_L$$ is the Load Capacitance of the oscillator
+
 Oscillator Specifications:
 
 ![image](https://github.com/user-attachments/assets/8598e5f9-5cee-450d-86bb-195a21757449)
