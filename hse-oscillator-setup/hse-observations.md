@@ -20,6 +20,10 @@ The formula for calculating $$C_L$$ from the previous values is as follows:
 
 $$C_L = \frac{C_{L1} * C_{L2}}{C_{L1} + C_{L2}} + C_S$$
 
+The load capacitance is important because it is used to determine if a given oscillator setup is capable of oscillating.
+
+This is found by calculating $$g_m_{crit max}$$
+
 Oscillator Specifications:
 
 ![image](https://github.com/user-attachments/assets/8598e5f9-5cee-450d-86bb-195a21757449)
