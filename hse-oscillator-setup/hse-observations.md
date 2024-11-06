@@ -27,6 +27,10 @@ This is found by calculating the gain ratio margin $$(\frac{g_m}{g_{mcrit}})$$, 
 - $$g_m$$ is the transconductance of the microcontroller, for the STM32L496xx it is provided in the datasheet as 1.5 $$\frac{mA}{V}$$.
 - $$g_{mcrit}$$ is the minimal transconductance necessary to maintain a stable oscillation in a given oscillator circuit.
 
+To calculate $$g_{mcrit}$$, we utilize the following formula provided in the STM Guidelines for Oscillator Design:
+
+$$g_{mcrit} = 4 * ESR * (2piF)^2 * (C_0 + C_L)^2$$
+
 Oscillator Specifications:
 
 ![image](https://github.com/user-attachments/assets/8598e5f9-5cee-450d-86bb-195a21757449)
