@@ -12,7 +12,7 @@ Understanding Quartz Oscillator:
 ^ from STM32L496xx Datasheet
 
 An important number to know when determining the capacitors to use in an oscillator circuit is the load capacitance ($$C_L$$).
-This value can be calculated from $$C_{L1}$$ and $$C_{L2}$$, the two external capacitors in the oscillator circuit, and $$C_S$$, which is the total excess capacitance from the microcontroller, PCB board, etc.
+This value can be calculated from $$C_{L1}$$ and $$C_{L2}$$, the two external capacitors in the oscillator circuit, and $$C_S$$, the total excess capacitance from the microcontroller, PCB board, etc.
 
 In the STM32L496xx Datasheet, it is specified that $$C_S$$ can be taken as 10 pF (pg 162).
 
