@@ -22,7 +22,7 @@ $$C_L = \frac{C_{L1} * C_{L2}}{C_{L1} + C_{L2}} + C_S$$
 
 The load capacitance is important because it is used to determine if a given oscillator setup is capable of oscillating.
 
-This is found by calculating $$g_m_{crit max}$$
+This is found by calculating $$g_{mcrit}$$
 
 Oscillator Specifications:
 
