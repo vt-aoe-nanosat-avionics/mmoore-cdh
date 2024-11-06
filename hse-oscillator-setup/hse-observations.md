@@ -22,7 +22,10 @@ $$C_L = \frac{C_{L1} * C_{L2}}{C_{L1} + C_{L2}} + C_S$$
 
 The load capacitance is important because it is used to determine if a given oscillator setup is capable of oscillating.
 
-This is found by calculating $$g_{mcrit}$$
+
+This is found by calculating the gain ratio margin, which is the ratio of the transconductance of the microcontroller to the transconductance of the given oscillator circuit.
+- $$g_m$$ is the transconductance of the microcontroller, for the STM32L496xx it is provided in the datasheet as 1.5 $$\frac{mA}{V}$$.
+- $$g_{mcrit}$$ is the minimal transconductance necessary to maintain a stable oscillation in a given oscillator circuit.
 
 Oscillator Specifications:
 
