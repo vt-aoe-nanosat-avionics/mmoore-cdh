@@ -11,7 +11,7 @@ Understanding Quartz Oscillator:
 
 ^ from STM32L496xx Datasheet
 
-An important number to know when determining the capacitors to use in an oscillator circuit is the load capacitance (C_L)
+An important number to know when determining the capacitors to use in an oscillator circuit is the load capacitance ($$C_L$$)
 
 Oscillator Specifications:
 
