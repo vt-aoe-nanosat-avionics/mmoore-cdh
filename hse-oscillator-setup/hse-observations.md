@@ -29,7 +29,7 @@ This is found by calculating the gain ratio margin $$(\frac{g_m}{g_{mcrit}})$$, 
 
 To calculate $$g_{mcrit}$$, we utilize the following formula provided in the STM Guidelines for Oscillator Design:
 
-$$g_{mcrit} = 4 * ESR * (2\piF)^2 * (C_0 + C_L)^2$$
+$$g_{mcrit} = 4 * ESR * (2 * \pi * F)^2 * (C_0 + C_L)^2$$
 
 Oscillator Specifications:
 
