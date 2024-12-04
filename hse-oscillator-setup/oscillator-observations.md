@@ -18,7 +18,7 @@ In the STM32L496xx Datasheet, it is specified that $$C_S$$ can be taken as 10 pF
 
 The formula for calculating $$C_L$$ from the previous values is as follows:
 
-$$C_L = \frac{C_{L1} * C_{L2}}{C_{L1} + C_{L2}} + C_S$$
+C_L = \frac{C_{L1} * C_{L2}}{C_{L1} + C_{L2}} + C_S
 
 The load capacitance is important because it is used to determine if a given oscillator setup is capable of oscillating.
 
